@@ -3,7 +3,7 @@
 title: Junyi Ye
 
 # Name pronunciation (optional)
-name_pronunciation: Chien Shiung Wu
+name_pronunciation: ''
 
 # Full name (for SEO)
 first_name: Junyi
@@ -11,7 +11,7 @@ last_name: Ye
 
 # Status emoji
 status:
-  icon: ☕️
+  icon: 🤖
 
 # Is this the primary user of the site?
 superuser: true
@@ -20,7 +20,7 @@ superuser: true
 highlight_name: true
 
 # Role/position/tagline
-role: Chief Scientist
+role: PhD Candidate
 
 # Organizations/Affiliations to display in Biography blox
 organizations:
@@ -47,13 +47,13 @@ profiles:
     url: https://orcid.org/
 
 interests:
-  - Artificial Intelligence
-  - Computational Linguistics
+  - Large Language Model
+  - Fintech
   - Information Retrieval
 
 education:
   - area: PhD Artificial Intelligence
-    institution: Stanford University
+    institution: New Jersey Insititue of Technology
     date_start: 2016-01-01
     date_end: 2020-12-31
     summary: |
