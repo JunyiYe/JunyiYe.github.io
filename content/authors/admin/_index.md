@@ -33,12 +33,6 @@ profiles:
   - icon: at-symbol
     url: 'mailto:jy394@njit.edu'
     label: E-mail Me
-<!--
-  - icon: brands/x
-    url: https://twitter.com/GetResearchDev
-  - icon: brands/instagram
-    url: https://www.instagram.com/
--->
   - icon: brands/github
     url: https://github.com/JunyiYe
   - icon: brands/linkedin
