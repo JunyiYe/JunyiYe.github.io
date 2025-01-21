@@ -3,9 +3,7 @@ layout: about
 title: about
 permalink: /
 subtitle: >
-  <a href="https://www.njit.edu/">New Jersey Institute of Technology1</a> 
-  Department of Computer Science
-  Email: jy394 [at] njit.edu
+  <a href="https://www.njit.edu/">New Jersey Institute of Technology</a>|Computer Science
 
 
 profile:
