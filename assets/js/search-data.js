@@ -431,22 +431,15 @@ ninja.data = [{
           window.location.href = "/blog/2015/formatting-and-links/";
         
       },
-    },{id: "news-announcement-4",
-          title: 'Announcement_4',
-          description: "",
-          section: "News",handler: () => {
-              window.location.href = "/news/announcement_4/";
-            },},{id: "news-announcement-2",
-          title: 'Announcement_2',
+    },{id: "news-a-long-announcement-with-details",
+          title: 'A long announcement with details',
           description: "",
           section: "News",handler: () => {
               window.location.href = "/news/announcement_2/";
-            },},{id: "news-announcement-3",
-          title: 'Announcement_3',
+            },},{id: "news-a-simple-inline-announcement-with-markdown-emoji-sparkles-smile",
+          title: 'A simple inline announcement with Markdown emoji! :sparkles: :smile:',
           description: "",
-          section: "News",handler: () => {
-              window.location.href = "/news/announcement_3/";
-            },},{id: "news-exciting-news-our-paper-creativemath-has-been-accepted-for-oral-presentation-at-aaai-2025",
+          section: "News",},{id: "news-exciting-news-our-paper-creativemath-has-been-accepted-for-oral-presentation-at-aaai-2025",
           title: 'Exciting News! 🎉 Our paper, CreativeMath, has been accepted for oral presentation at...',
           description: "",
           section: "News",},{id: "projects-project-2",
