@@ -1,8 +1,9 @@
 ---
 layout: post
-date: 2015-10-22 15:59:00-0400
+date: 2024-01-17 08:00:00-0500
 inline: true
 related_posts: false
 ---
 
-A simple inline announcement.
+**Exciting News!** 🎉  
+Our paper, [CreativeMath](https://arxiv.org/abs/2410.18336), has been accepted for oral presentation at [AAAI 2025](https://aaai.org/conference/aaai/aaai-25/)!  
