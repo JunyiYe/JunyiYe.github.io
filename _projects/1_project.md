@@ -1,4 +1,4 @@
-<!-- ---
+---
 layout: page
 title: project 1
 description: with background image
@@ -78,10 +78,10 @@ Here's the code for the last row of images above:
 </div>
 ```
 
-{% endraw %} -->
+{% endraw %}
 
 
----
+<!-- ---
 layout: page
 title: TextFlow - Beyond End-to-End VLMs
 description: A dual-stage framework for superior flowchart understanding
@@ -172,4 +172,4 @@ If you use TextFlow in your research, please cite:
   journal={arXiv preprint arXiv:2412.16420},
   year={2024}
 }
-```
+``` -->
