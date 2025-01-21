@@ -431,18 +431,21 @@ ninja.data = [{
           window.location.href = "/blog/2015/formatting-and-links/";
         
       },
-    },{id: "news-a-long-announcement-with-details",
-          title: 'A long announcement with details',
+    },{id: "news-our-paper-margin-trading-llm-has-been-accepted-for-oral-presentation-at-icafi-24",
+          title: 'Our paper, Margin Trading LLM, has been accepted for oral presentation at ICAFI’24!...',
+          description: "",
+          section: "News",},{id: "news-our-paper-margin-trading-llm-has-been-accepted-for-oral-presentation-at-icafi-24",
+          title: 'Our paper, Margin Trading LLM, has been accepted for oral presentation at ICAFI’24!...',
+          description: "",
+          section: "News",},{id: "news-our-paper-creativemath-has-been-accepted-for-oral-presentation-at-aaai-2025",
+          title: '🎉 Our paper, CreativeMath, has been accepted for oral presentation at AAAI 2025!...',
+          description: "",
+          section: "News",},{id: "news-announcement-2",
+          title: 'Announcement_2',
           description: "",
           section: "News",handler: () => {
               window.location.href = "/news/announcement_2/";
-            },},{id: "news-a-simple-inline-announcement-with-markdown-emoji-sparkles-smile",
-          title: 'A simple inline announcement with Markdown emoji! :sparkles: :smile:',
-          description: "",
-          section: "News",},{id: "news-exciting-news-our-paper-creativemath-has-been-accepted-for-oral-presentation-at-aaai-2025",
-          title: 'Exciting News! 🎉 Our paper, CreativeMath, has been accepted for oral presentation at...',
-          description: "",
-          section: "News",},{id: "projects-project-1",
+            },},{id: "projects-project-1",
           title: 'project 1',
           description: "with background image",
           section: "Projects",handler: () => {
