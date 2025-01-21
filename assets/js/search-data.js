@@ -431,21 +431,19 @@ ninja.data = [{
           window.location.href = "/blog/2015/formatting-and-links/";
         
       },
-    },{id: "news-our-paper-margin-trading-llm-has-been-accepted-for-oral-presentation-at-icafi-24",
-          title: 'Our paper, Margin Trading LLM, has been accepted for oral presentation at ICAFI’24!...',
-          description: "",
-          section: "News",},{id: "news-our-paper-margin-trading-llm-has-been-accepted-for-oral-presentation-at-icafi-24",
-          title: 'Our paper, Margin Trading LLM, has been accepted for oral presentation at ICAFI’24!...',
-          description: "",
-          section: "News",},{id: "news-our-paper-creativemath-has-been-accepted-for-oral-presentation-at-aaai-2025",
+    },{id: "news-our-paper-creativemath-has-been-accepted-for-oral-presentation-at-aaai-2025",
           title: '🎉 Our paper, CreativeMath, has been accepted for oral presentation at AAAI 2025!...',
           description: "",
-          section: "News",},{id: "news-announcement-2",
-          title: 'Announcement_2',
+          section: "News",},{id: "news-our-paper-dataframe-qa-has-been-accepted-for-oral-presentation-at-acml-2024",
+          title: 'Our paper, DataFrame QA, has been accepted for oral presentation at ACML 2024!...',
           description: "",
-          section: "News",handler: () => {
-              window.location.href = "/news/announcement_2/";
-            },},{id: "projects-project-1",
+          section: "News",},{id: "news-our-paper-dystage-has-been-accepted-for-oral-presentation-at-icafi-24",
+          title: 'Our paper, DySTAGE, has been accepted for oral presentation at ICAFI’24!',
+          description: "",
+          section: "News",},{id: "news-our-paper-margin-trading-llm-has-been-accepted-for-oral-presentation-at-icafi-2024",
+          title: 'Our paper, Margin Trading LLM, has been accepted for oral presentation at ICAFI...',
+          description: "",
+          section: "News",},{id: "projects-project-1",
           title: 'project 1',
           description: "with background image",
           section: "Projects",handler: () => {
