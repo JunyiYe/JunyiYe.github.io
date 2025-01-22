@@ -3,9 +3,9 @@ layout: about
 title: about
 permalink: /
 subtitle: >
-  <a href="https://www.njit.edu/" target="_blank" rel="noopener noreferrer">New Jersey Institute of Technology</a> | 
-  <a href="https://fintechlab-njit.netlify.app/" target="_blank" rel="noopener noreferrer">NJIT Fintech Lab</a> | 
-  <a href="https://research.njit.edu/ai/" target="_blank" rel="noopener noreferrer">Center for AI Research</a>
+  <a href="https://www.njit.edu/">New Jersey Institute of Technology</a> | 
+  <a href="https://fintechlab-njit.netlify.app/">NJIT Fintech Lab</a> | 
+  <a href="https://research.njit.edu/ai/">Center for AI Research</a>
 
 
 
