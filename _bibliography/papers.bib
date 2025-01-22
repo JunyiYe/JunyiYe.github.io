@@ -2,22 +2,28 @@
 ---
 
 @article{rahman2024blind,
-  abbr={arXiv},
+  abbr={Preprint},
   bibtex_show={true},
   title={From Blind Solvers to Logical Thinkers: Benchmarking LLMs' Logical Integrity on Faulty Mathematical Problems},
   author={Rahman*, Muntasir and Ye*, Junyi and Yao, Wei and Yin, Wenpeng and Wang, Guiling},
-  arXiv={arXiv preprint arXiv:2410.18921},
-  year={2024}
+  journal={arXiv preprint arXiv:2410.18921},
+  arXiv={2410.18921},
+  year={2024},
+  abstract={Consider the math problem: "Lily received 3 cookies from her best friend yesterday and ate 5 for breakfast. Today, her friend gave her 3 more cookies. How many cookies does Lily have now?'' Many LLMs solve this by calculating "1'' using the equation "3 - 5 + 3." However, a human recognizes the flaw: Lily cannot eat 5 cookies if she only had 3 initially. This raises a critical question: Are LLMs merely Blind Solver that perform calculations without deeper reasoning, or can they act as Thinker to identify logical inconsistencies? To investigate, we introduce FaultyMath, a benchmark of diverse faulty math problems spanning multiple categories (e.g., algebra, geometry), difficulty levels, and origins of faultiness (e.g., common sense violations, ambiguity, contradictions). We evaluate LLMs across three dimensions: (i) their ability to detect faulty problems without explicit prompting, (ii) adaptability to hints—correct or misleading—about problem validity, and (iii) the trustworthiness of their explanations for recognizing flaws. Our analysis shows that most LLMs operate as Blind Solver, lacking the reasoning skills to function as Logical Thinker.},
+  pdf={FaultyMathProblem_paper.pdf},
+  code={https://github.com/JunyiYe/FaultyMathProblem}
 }
 
 @article{ye2024beyond,
-  abbr={arXiv},
+  abbr={Preprint},
   bibtex_show={true},
   title={Beyond End-to-End VLMs: Leveraging Intermediate Text Representations for Superior Flowchart Understanding},
   author={Ye, Junyi and Dash, Ankan and Yin, Wenpeng and Wang, Guiling},
   journal={arXiv preprint arXiv:2412.16420},
   arXiv={2412.16420},
   year={2024},
+  abstract={Flowcharts are typically presented as images, driving the trend of using vision-language models (VLMs) for end-to-end flowchart understanding. However, two key challenges arise: (i) Limited controllability—users have minimal influence over the downstream task, as they can only modify input images, while the training of VLMs is often out of reach for most researchers. (ii) Lack of explainability—it is difficult to trace VLM errors to specific causes, such as failures in visual encoding or reasoning. We propose TextFlow, addressing aforementioned issues with two stages: (i) Vision Textualizer—which generates textual representations from flowchart images; and (ii) Textual Reasoner—which performs question-answering based on the text representations. TextFlow offers three key advantages: (i) users can select the type of text representations (e.g., Graphviz, Mermaid, PlantUML), or further convert them into executable graph object to call tools, enhancing performance and controllability; (ii) it improves explainability by helping to attribute errors more clearly to visual or textual processing components; and (iii) it promotes the modularization of the solution, such as allowing advanced LLMs to be used in the reasoner stage when VLMs underperform in end-to-end fashion. Experiments on the FlowVQA and FlowLearn benchmarks demonstrate TextFlow's state-of-the-art performance as well as its robustness. All code will be publicly released.},
+  pdf={TextFlow_paper.pdf},
   code={https://github.com/JunyiYe/TextFlow}
 }
 
@@ -97,6 +103,7 @@
   year={2024},
   url={https://doi.org/10.1007/s40745-022-00436-2},
   doi={10.1007/s40745-022-00436-2},
+  abstract={We applied Deep Learning algorithm known as Generative Adversarial Networks (GANs) to perform solar image-to-image translation. That is, from Solar Dynamics Observatory (SDO)/Helioseismic and Magnetic Imager (HMI) line of sight magnetogram images to SDO/Atmospheric Imaging Assembly (AIA) 0304-Å images. The Ultraviolet (UV)/Extreme Ultraviolet observations like the SDO/AIA 0304-Å images were only made available to scientists in the late 1990s even though the magnetic field observations like the SDO/HMI have been available since the 1970s. Therefore, by leveraging Deep Learning algorithms like GANs we can give scientists access to complete datasets for analysis. For generating high resolution solar images, we use the Pix2PixHD and Pix2Pix algorithms. The Pix2PixHD algorithm was specifically designed for high resolution image generation tasks, and the Pix2Pix algorithm is by far the most widely used image to image translation algorithm. For training and testing we used the data for the year 2012, 2013 and 2014. After model training, we evaluated the model on the test data. The results show that our deep learning models are capable of generating high resolution (1024 × 1024 pixels) SDO/AIA0304 images from SDO/HMI line of sight magnetograms. Specifically, the pixel-to-pixel Pearson Correlation Coefficient of the images generated by Pix2PixHD and original images is as high as 0.99. The number is 0.962 if Pix2Pix is used to generate images. The results we get for our Pix2PixHD model is better than the results obtained by previous works done by others to generate SDO/AIA 0304 images. Thus, we can use these models to generate AIA0304 images when the AIA0304 data is not available which can be used for understanding space weather and giving researchers the capability to predict solar events such as Solar Flares and Coronal Mass Ejections. As far as we know, our work is the first attempt to leverage Pix2PixHD algorithm for SDO/HMI to SDO/AIA0304 image-to-image translation.},
   publisher={Springer},
   pdf={solar.pdf}
 }
@@ -111,7 +118,7 @@
 }
 
 @article{ye2024factor,
-  abbr={arXiv},
+  abbr={Preprint},
   bibtex_show={true},
   title={From Factor Models to Deep Learning: Machine Learning in Reshaping Empirical Asset Pricing},
   author={Ye*, Junyi and Goswami*, Bhaskar and Gu*, Jingyi and Uddin, Ajim and Wang, Guiling},
