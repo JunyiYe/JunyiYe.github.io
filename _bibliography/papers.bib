@@ -54,7 +54,6 @@
 
 @inproceedings{10.1145/3677052.3698680,
   abbr={ICAIF},
-  bibtex_show={true},
   author = {Gu*, Jingyi and Ye*, Junyi and Uddin, Ajim and Wang, Guiling},
   title = {DySTAGE: Dynamic Graph Representation Learning for Asset Pricing via Spatio-Temporal Attention and Graph Encodings},
   year = {2024},
@@ -62,7 +61,6 @@
   publisher = {Association for Computing Machinery},
   address = {New York, NY, USA},
   url = {https://doi.org/10.1145/3677052.3698680},
-  doi = {10.1145/3677052.3698680},
   abstract = {Current GNN-based asset price prediction models often focus on a fixed group of assets and their static relationships within the financial network. However, this approach overlooks the reality that the composition of asset pools and their interrelationships evolves over time, necessitating the development of a flexible framework capable of adapting to this dynamism. Accordingly, we propose DySTAGE, a framework with a universal formulation that transforms asset pricing time series into dynamic graphs, accommodating asset addition, deletion, and changes in correlations. Our framework includes a graph learning model specifically designed for this purpose. In our framework, assets at various historical time steps are structured as a sequence of dynamic graphs, where connections between assets reflect their long-term correlations. DySTAGE effectively captures both topological and temporal patterns. The Topological Module deploys Asset Influence Attention to learn global interrelationships among assets, further enhanced by Asset-wise Importance Encoding, Pair-wise Spatial Encoding, and Edge-wise Correlation Encoding. Meanwhile, the Temporal Module encapsulates node representations across the temporal dimension via the attention mechanism. We validate our approach through extensive experiments using three different real-world stock pricing data, demonstrating that DySTAGE surpasses popular benchmarks in return prediction, and offers profitable investment strategies. The code is publicly available under NJIT FinTech Lab’s GitHub1.},
   booktitle = {Proceedings of the 5th ACM International Conference on AI in Finance},
   pages = {388–396},
@@ -70,14 +68,14 @@
   keywords = {Asset Pricing, Dynamic Graph, Graph Neural Networks, Stock Price Prediction},
   location = {Brooklyn, NY, USA},
   series = {ICAIF '24},
-  pdf={DySTAGE_paper.pdf},
-  slides={DySTAGE_slides.pdf},
-  code={https://github.com/JunyiYe/DySTAGE}
+  pdf={dystage.pdf},
+  slides={dystage_slides.pdf},
+  code={https://github.com/JunyiYe/DySTAGE},
+  preview={dystage_logo.png}
 }
 
 @inproceedings{10.1145/3677052.3698681,
   abbr={ICAIF},
-  bibtex_show={true},
   author = {Gu*, Jingyi and Ye*, Junyi and Wang, Guiling and Yin, Wenpeng},
   title = {Adaptive and Explainable Margin Trading via Large Language Models on Portfolio Management},
   year = {2024},
@@ -85,14 +83,16 @@
   publisher = {Association for Computing Machinery},
   address = {New York, NY, USA},
   url = {https://doi.org/10.1145/3677052.3698681},
-  doi = {10.1145/3677052.3698681},
   abstract = {Recent strategies for portfolio management often lack flexibility to adjust funds between long and short positions throughout trading periods. This prevents adapting portfolios to the market, which mitigates risks and seizes opportunities. To address these gaps, we propose an adaptive and explainable framework that integrates Large Language Models (LLMs) with Reinforcement Learning (RL) for dynamic long-short position adjustment in response to evolving market conditions. This approach leverages the recent advancements in LLMs for processing unstructured data and their capacity for explainable reasoning. The framework includes two stages: an Explainable Market Forecasting/Reasoning Pipeline, and a Position Reallocation stage. The Market Forecasting/Reasoning Pipeline allows various LLMs to learn market trends from diverse external data sources and determine optimal adjustment ratios with a clear reasoning path. The Portfolio Reallocation stage interacts with the sequential trading process from a pre-trained RL model to enhance decision-making and transparency. Our framework is flexible to accommodate various external data sources from microeconomics to macroeconomics data, diverse data types including time series and news text, along with multiple LLMs. Experiments demonstrate that our framework effectively achieves three times the return and doubles the Sharpe ratio compared to benchmarks. All the data and code are publicly available under NJIT FinTech Lab’s GitHub1.},
   booktitle = {Proceedings of the 5th ACM International Conference on AI in Finance},
   pages = {248–256},
   numpages = {9},
   keywords = {Explainable AI, Large Language Model, Market Trend Forecasting, Portfolio Management, Reinforcement Learning},
   location = {Brooklyn, NY, USA},
-  series = {ICAIF '24}
+  series = {ICAIF '24},
+  pdf={margin_trader_llm.pdf},
+  slides={margin_trader_llm_slides.pdf},
+  code={https://github.com/JunyiYe/MarginTraderLLM},
 }
 
 @article{dash2024high,
