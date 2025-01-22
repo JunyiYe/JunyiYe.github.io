@@ -6,7 +6,7 @@ nav: true
 nav_order: 2
 ---
 
-\*These Authors contributed equally.
+Authors with \∗ signs contribute equally to the papers.
 <!-- _pages/publications.md -->
 
 <!-- Bibsearch Feature -->
