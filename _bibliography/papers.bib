@@ -9,7 +9,7 @@
   journal={arXiv preprint arXiv:2410.18921},
   year={2024},
   abstract={Consider the math problem: "Lily received 3 cookies from her best friend yesterday and ate 5 for breakfast. Today, her friend gave her 3 more cookies. How many cookies does Lily have now?'' Many LLMs solve this by calculating "1'' using the equation "3 - 5 + 3." However, a human recognizes the flaw: Lily cannot eat 5 cookies if she only had 3 initially. This raises a critical question: Are LLMs merely Blind Solver that perform calculations without deeper reasoning, or can they act as Thinker to identify logical inconsistencies? To investigate, we introduce FaultyMath, a benchmark of diverse faulty math problems spanning multiple categories (e.g., algebra, geometry), difficulty levels, and origins of faultiness (e.g., common sense violations, ambiguity, contradictions). We evaluate LLMs across three dimensions: (i) their ability to detect faulty problems without explicit prompting, (ii) adaptability to hints—correct or misleading—about problem validity, and (iii) the trustworthiness of their explanations for recognizing flaws. Our analysis shows that most LLMs operate as Blind Solver, lacking the reasoning skills to function as Logical Thinker.},
-  pdf={FaultyMathProblem_paper.pdf},
+  pdf={faulty_math_problem.pdf},
   code={https://github.com/JunyiYe/FaultyMathProblem},
   preview={FaultyMathProblem_logo.png}
 }
@@ -140,4 +140,25 @@
   journal={IEEE Access},
   year={2023},
   publisher={IEEE}
+}
+
+@article{Du_Ye_Gu_Li_Wei_Wang_2023,
+  abbr={AAAI},
+  bibtex_show={true},
+  title={SafeLight: A Reinforcement Learning Method toward Collision-Free Traffic Signal Control}, 
+  volume={37}, 
+  url={https://ojs.aaai.org/index.php/AAAI/article/view/26729}, 
+  DOI={10.1609/aaai.v37i12.26729}, 
+  abstractNote={Traffic signal control is safety-critical for our daily life. Roughly one-quarter of road accidents in the U.S. happen at intersections due to problematic signal timing, urging the development of safety-oriented intersection control. However, existing studies on adaptive traffic signal control using reinforcement learning technologies have focused mainly on minimizing traffic delay but neglecting the potential exposure to unsafe conditions. We, for the first time, incorporate road safety standards as enforcement to ensure the safety of existing reinforcement learning methods, aiming toward operating intersections with zero collisions. We have proposed a safety-enhanced residual reinforcement learning method (SafeLight) and employed multiple optimization techniques, such as multi-objective loss function and reward shaping for better knowledge integration. Extensive experiments are conducted using both synthetic and real-world benchmark datasets. Results show that our method can significantly reduce collisions while increasing traffic mobility.}, 
+  number={12}, 
+  journal={Proceedings of the AAAI Conference on Artificial Intelligence}, 
+  author={Du, Wenlu and Ye, Junyi and Gu, Jingyi and Li, Jing and Wei, Hua and Wang, Guiling}, 
+  year={2023}, 
+  month={Jun.}, 
+  pages={14801-14810},
+  pdf={safelight.pdf},
+  code={https://gitlab.com/wenlu057/traffic-safety},
+  poster={safelight_poster.png},
+  video={https://underline.io/events/380/sessions/14361/lecture/68704-safelight-a-reinforcement-learning-method-toward-collision-free-traffic-signal-control?tab=video},
+  preview={safelight.gif}
 }
