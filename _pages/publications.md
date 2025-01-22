@@ -6,7 +6,7 @@ nav: true
 nav_order: 2
 ---
 
-Authors with ∗ signs contribute equally to the papers.
+Authors with ∗ signs contribute equally to the paper.
 <!-- _pages/publications.md -->
 
 <!-- Bibsearch Feature -->
