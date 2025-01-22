@@ -3,7 +3,6 @@
 
 @article{rahman2024blind,
   abbr={Preprint},
-  bibtex_show={true},
   title={From Blind Solvers to Logical Thinkers: Benchmarking LLMs' Logical Integrity on Faulty Mathematical Problems},
   author={Rahman*, Muntasir and Ye*, Junyi and Yao, Wei and Yin, Wenpeng and Wang, Guiling},
   journal={arXiv preprint arXiv:2410.18921},
@@ -11,38 +10,35 @@
   abstract={Consider the math problem: "Lily received 3 cookies from her best friend yesterday and ate 5 for breakfast. Today, her friend gave her 3 more cookies. How many cookies does Lily have now?'' Many LLMs solve this by calculating "1'' using the equation "3 - 5 + 3." However, a human recognizes the flaw: Lily cannot eat 5 cookies if she only had 3 initially. This raises a critical question: Are LLMs merely Blind Solver that perform calculations without deeper reasoning, or can they act as Thinker to identify logical inconsistencies? To investigate, we introduce FaultyMath, a benchmark of diverse faulty math problems spanning multiple categories (e.g., algebra, geometry), difficulty levels, and origins of faultiness (e.g., common sense violations, ambiguity, contradictions). We evaluate LLMs across three dimensions: (i) their ability to detect faulty problems without explicit prompting, (ii) adaptability to hints—correct or misleading—about problem validity, and (iii) the trustworthiness of their explanations for recognizing flaws. Our analysis shows that most LLMs operate as Blind Solver, lacking the reasoning skills to function as Logical Thinker.},
   pdf={faulty_math_problem.pdf},
   code={https://github.com/JunyiYe/FaultyMathProblem},
-  preview={FaultyMathProblem_logo.png}
+  preview={faulty_math_problem_logo.png}
 }
 
 @article{ye2024beyond,
   abbr={Preprint},
-  bibtex_show={true},
   title={Beyond End-to-End VLMs: Leveraging Intermediate Text Representations for Superior Flowchart Understanding},
   author={Ye, Junyi and Dash, Ankan and Yin, Wenpeng and Wang, Guiling},
   journal={arXiv preprint arXiv:2412.16420},
   year={2024},
   abstract={Flowcharts are typically presented as images, driving the trend of using vision-language models (VLMs) for end-to-end flowchart understanding. However, two key challenges arise: (i) Limited controllability—users have minimal influence over the downstream task, as they can only modify input images, while the training of VLMs is often out of reach for most researchers. (ii) Lack of explainability—it is difficult to trace VLM errors to specific causes, such as failures in visual encoding or reasoning. We propose TextFlow, addressing aforementioned issues with two stages: (i) Vision Textualizer—which generates textual representations from flowchart images; and (ii) Textual Reasoner—which performs question-answering based on the text representations. TextFlow offers three key advantages: (i) users can select the type of text representations (e.g., Graphviz, Mermaid, PlantUML), or further convert them into executable graph object to call tools, enhancing performance and controllability; (ii) it improves explainability by helping to attribute errors more clearly to visual or textual processing components; and (iii) it promotes the modularization of the solution, such as allowing advanced LLMs to be used in the reasoner stage when VLMs underperform in end-to-end fashion. Experiments on the FlowVQA and FlowLearn benchmarks demonstrate TextFlow's state-of-the-art performance as well as its robustness. All code will be publicly released.},
-  pdf={TextFlow_paper.pdf},
+  pdf={textflow.pdf},
   code={https://github.com/JunyiYe/TextFlow},
-  preview={TextFlow_logo.png}
+  preview={textflow_logo.png}
 }
 
 @inproceedings{ye2024assessing,
   abbr={AAAI},
-  bibtex_show={true},
   title={Assessing the Creativity of LLMs in Proposing Novel Solutions to Mathematical Problems},
   author={Ye, Junyi and Gu, Jingyi and Zhao, Xinyun and Yin, Wenpeng and Wang, Guiling},
   booktitle={Proceedings of the AAAI conference on artificial intelligence},
   year={2025},
   abstract={The mathematical capabilities of AI systems are complex and multifaceted. Most existing research has predominantly focused on the correctness of AI-generated solutions to mathematical problems. In this work, we argue that beyond producing correct answers, AI systems should also be capable of, or assist humans in, developing novel solutions to mathematical challenges. This study explores the creative potential of Large Language Models (LLMs) in mathematical reasoning, an aspect that has received limited attention in prior research. We introduce a novel framework and benchmark, CreativeMath, which encompasses problems ranging from middle school curricula to Olympic-level competitions, designed to assess LLMs' ability to propose innovative solutions after some known solutions have been provided. Our experiments demonstrate that, while LLMs perform well on standard mathematical tasks, their capacity for creative problem-solving varies considerably. Notably, the Gemini-1.5-Pro model outperformed other LLMs in generating novel solutions. This research opens a new frontier in evaluating AI creativity, shedding light on both the strengths and limitations of LLMs in fostering mathematical innovation, and setting the stage for future developments in AI-assisted mathematical discovery.},
-  pdf={CreativeMath_paper.pdf},
+  pdf={creative_math.pdf},
   code={https://github.com/JunyiYe/CreativeMath},
-  preview={CreativeMath.png}
+  preview={creative_math_logo.png}
 }
 
 @inproceedings{ye2024dataframe,
   abbr={ACML},
-  bibtex_show={true},
   title={DataFrame {QA}: A Universal {LLM} Framework on DataFrame Question Answering Without Data Exposure},
   author={Junyi Ye and Mengnan Du and Guiling Wang},
   booktitle={The 16th Asian Conference on Machine Learning (Conference Track)},
@@ -50,9 +46,10 @@
   url={https://openreview.net/forum?id=rDNj0enuhc},
   abstract={This paper introduces DataFrame Question Answering (QA), a novel task that utilizes natural language processing (NLP) models to generate Pandas queries for information retrieval and data analysis on dataframes, emphasizing safe and non-revealing data handling. Specifically, our method, leveraging a large language model (LLM), which solely relies on dataframe column names, not only ensures data privacy but also significantly reduces the context window in the prompt, streamlining information processing and addressing major challenges in LLM-based data analysis. We propose DataFrame QA as a comprehensive framework that includes safe Pandas query generation and code execution. Various LLMs are evaluated on the renowned WikiSQL dataset and our newly developed UCI-DataFrameQA, tailored for complex data analysis queries. Our findings indicate that GPT-4 performs well on both datasets, underscoring its capability in securely retrieving and aggregating dataframe values and conducting sophisticated data analyses. This approach, deployable in a zero-shot manner without prior training or adjustments, proves to be highly adaptable and secure for diverse applications.},
   pdf={dataframeqa_paper.pdf},
-  poster={dataframeqa_poster.pdf},
-  slides={dataframeqa_slides.pdf},
-  code={https://github.com/JunyiYe/dataframe-qa}
+  poster={dataframe_qa_poster.pdf},
+  slides={dataframe_qa_slides.pdf},
+  code={https://github.com/JunyiYe/dataframe-qa},
+  preview={dataframe_qa_logo.png}
 }
 
 @inproceedings{10.1145/3677052.3698680,
