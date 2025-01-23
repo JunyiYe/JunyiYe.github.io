@@ -4,7 +4,7 @@ title: TextFlow
 description: a framework that converts flowchart images into text to improve explainability and control in flowchart understanding tasks
 img: assets/img/textflow.svg
 importance: 1
-category: large language model
+category: large
 ---
 
 Flowcharts are typically presented as images, driving the trend of using vision-language models (VLMs) for end-to-end flowchart understanding. However, two key challenges arise: (i) **Limited controllability**—users have minimal influence over the downstream task, as they can only modify input images, while the training of VLMs is often out of reach for most researchers. (ii) **Lack of explainability**—it is difficult to trace VLM errors to specific causes, such as failures in visual encoding or reasoning.
