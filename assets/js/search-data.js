@@ -402,6 +402,11 @@ ninja.data = [{
           description: "a framework that converts flowchart images into text to improve explainability and control in flowchart understanding tasks",
           section: "Projects",handler: () => {
               window.location.href = "/projects/1_project/";
+            },},{id: "projects-creativemath",
+          title: 'CreativeMath',
+          description: "assess the creativity of LLMs in proposing novel solutions to mathematical problems",
+          section: "Projects",handler: () => {
+              window.location.href = "/projects/2_project/";
             },},{id: "projects-project-5",
           title: 'project 5',
           description: "a project with a background image",
