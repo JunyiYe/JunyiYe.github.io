@@ -4,7 +4,7 @@ title: TextFlow1
 description: a framework that converts flowchart images into text to improve explainability and control in flowchart understanding tasks
 img: assets/img/textflow.png
 importance: 1
-category: large language model
+category: work
 related_publications: true
 ---
 
