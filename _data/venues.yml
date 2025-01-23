@@ -7,3 +7,18 @@
 
 "Vision":
   color: "#009f36"
+
+"NAACL":
+  url: https://naacl.org/
+  color: "#00369f"
+
+"AAAI":
+  url: https://aaai.org/
+  color: "#009f36"
+
+"ICAIF":
+  url: https://ai-finance.org/
+  color: "##DB7137"
+
+"Preprint":
+  color: "#DB1227"
