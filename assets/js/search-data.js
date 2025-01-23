@@ -385,11 +385,11 @@ ninja.data = [{
     },{id: "news-our-paper-dataframe-qa-has-been-accepted-for-oral-presentation-at-acml-2024",
           title: 'Our paper, DataFrame QA, has been accepted for oral presentation at ACML 2024!...',
           description: "",
-          section: "News",},{id: "news-our-paper-dystage-has-been-accepted-for-oral-presentation-at-icafi-2024",
-          title: 'Our paper, DySTAGE, has been accepted for oral presentation at ICAFI 2024!',
+          section: "News",},{id: "news-our-paper-dystage-has-been-accepted-for-oral-presentation-at-icaif-2024",
+          title: 'Our paper, DySTAGE, has been accepted for oral presentation at ICAIF 2024!',
           description: "",
-          section: "News",},{id: "news-our-paper-margin-trading-llm-has-been-accepted-for-oral-presentation-at-icafi-2024",
-          title: 'Our paper, Margin Trading LLM, has been accepted for oral presentation at ICAFI...',
+          section: "News",},{id: "news-our-paper-margin-trader-llm-has-been-accepted-for-oral-presentation-at-icai-2024",
+          title: 'Our paper, Margin Trader LLM, has been accepted for oral presentation at ICAI...',
           description: "",
           section: "News",},{id: "news-our-paper-creativemath-has-been-accepted-for-oral-presentation-at-aaai-2025",
           title: '🎉 Our paper, CreativeMath, has been accepted for oral presentation at AAAI 2025!...',
@@ -407,6 +407,11 @@ ninja.data = [{
           description: "assess the creativity of LLMs in proposing novel solutions to mathematical problems",
           section: "Projects",handler: () => {
               window.location.href = "/projects/2_project/";
+            },},{id: "projects-creativemath",
+          title: 'CreativeMath',
+          description: "assess the creativity of LLMs in proposing novel solutions to mathematical problems",
+          section: "Projects",handler: () => {
+              window.location.href = "/projects/3_project/";
             },},{id: "projects-project-5",
           title: 'project 5',
           description: "a project with a background image",
