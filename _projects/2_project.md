@@ -4,7 +4,7 @@ title: CreativeMath
 description: assess the creativity of LLMs in proposing novel solutions to mathematical problems
 img: assets/img/creative_math.svg
 importance: 2
-category: work
+category: generative ai
 related_publications: true
 ---
 
