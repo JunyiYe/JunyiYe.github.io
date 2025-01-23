@@ -1,27 +1,22 @@
 ---
 layout: page
 title: CreativeMath
-description: a framework that converts flowchart images into text to improve explainability and control in flowchart understanding tasks
-img: assets/img/textflow.png
-importance: 3
-category: "large language model"
+description: assess the creativity of LLMs in proposing novel solutions to mathematical problems
+img: assets/img/creative_math.png
+importance: 4
+category: large-language-model
 related_publications: true
 ---
 
-Flowcharts are typically presented as images, driving the trend of using vision-language models (VLMs) for end-to-end flowchart understanding. However, two key challenges arise: (i) **Limited controllability**—users have minimal influence over the downstream task, as they can only modify input images, while the training of VLMs is often out of reach for most researchers. (ii) **Lack of explainability**—it is difficult to trace VLM errors to specific causes, such as failures in visual encoding or reasoning.
-
-We propose TextFlow {% cite ye2024beyond %}, addressing aforementioned issues with two stages: (i) **Vision Textualizer**—which generates textual representations from flowchart images; and (ii) **Textual Reasoner**—which performs question-answering based on the text representations. TextFlow offers three key advantages: (i) **users can select the type of text representations** (e.g., Graphviz, Mermaid, PlantUML), or further convert them into executable graph object to call tools, enhancing performance and controllability; (ii) **it improves explainability** by helping to attribute errors more clearly to visual or textual processing components; and (iii) **it promotes the modularization of the solution**, such as allowing advanced LLMs to be used in the reasoner stage when VLMs underperform in end-to-end fashion. Experiments on the FlowVQA and FlowLearn benchmarks demonstrate TextFlow's state-of-the-art performance as well as its robustness.
+The mathematical capabilities of AI systems are complex and multifaceted. Most existing research has predominantly focused on the correctness of AI-generated solutions to mathematical problems. In this work, we argue that beyond producing correct answers, AI systems should also be capable of, or assist humans in, developing novel solutions to mathematical challenges. This study explores the creative potential of Large Language Models (LLMs) in mathematical reasoning, an aspect that has received limited attention in prior research. We introduce a novel framework and benchmark, **CreativeMath**, which encompasses problems ranging from middle school curricula to Olympic-level competitions, designed to assess LLMs' ability to propose innovative solutions after some known solutions have been provided. Our experiments demonstrate that, while LLMs perform well on standard mathematical tasks, their capacity for creative problem-solving varies considerably. Notably, the Gemini-1.5-Pro model outperformed other LLMs in generating novel solutions. This research opens a new frontier in evaluating AI creativity, shedding light on both the strengths and limitations of LLMs in fostering mathematical innovation, and setting the stage for future developments in AI-assisted mathematical discovery.
 
 <div class="row">
     <div class="col-sm mt-3 mt-md-0">
-        {% include figure.liquid loading="eager" path="assets/img/textflow.png" title="example image" class="img-fluid rounded z-depth-1" %}
+        {% include figure.liquid loading="eager" path="assets/img/creative_math.png" title="example image" class="img-fluid rounded z-depth-1" %}
     </div>
 </div>
 <div class="caption">
-    Our dual-stage TEXTFLOW (bottom) vs. prior work (top).
+    CreativeMath framework includes solution generation (left) and the evaluation pipeline (middle). The flowchart of the detailed evaluation pipeline is illustrated on the right.
 </div>
-
-As illustrated in the above figure, the approach TextFlow consists of two main stages: (1) Vision Textualizer: A VLM converts the visual components of the flowchart into a high-quality text representation. (2) Textual Reasoner: An LLM or VLM based Texutal Reasoner can use tools
-and interpret the text representations to answer questions related to the flowchart’s logic and structure. By decoupling these tasks, TextFlow enables specialized models to focus on their respective strengths: Vision Textualizer process the visual elements, while Textual Reasoner handle reasoning tasks, thus improving accuracy and flexibility.
 
 {% endraw %}

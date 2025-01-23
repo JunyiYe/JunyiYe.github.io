@@ -1,6 +1,6 @@
 ---
 layout: page
-title: TextFlow
+title: TextFlow1
 description: a framework that converts flowchart images into text to improve explainability and control in flowchart understanding tasks
 img: assets/img/textflow.png
 importance: 1

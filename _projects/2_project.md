@@ -1,10 +1,10 @@
 ---
 layout: page
-title: TextFlow
+title: TextFlow2
 description: a framework that converts flowchart images into text to improve explainability and control in flowchart understanding tasks
 img: assets/img/textflow.png
-importance: 2
-category: work
+importance: 3
+category: "large language model"
 related_publications: true
 ---
 
