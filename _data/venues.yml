@@ -18,7 +18,11 @@
 
 "ICAIF":
   url: https://ai-finance.org/
-  color: "##DB7137"
+  color: "#DB7137"
+
+"ACML":
+  url: https://www.acml-conf.org/
+  color: "#0"
 
 "Preprint":
   color: "#DB1227"
