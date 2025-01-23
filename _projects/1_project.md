@@ -4,8 +4,8 @@ title: project 1
 description: with background image
 img: assets/img/12.jpg
 importance: 1
-category: publication
-related_publications: true
+category: work
+# related_publications: true
 ---
 
 Every project has a beautiful feature showcase page.
