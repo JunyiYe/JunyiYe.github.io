@@ -397,7 +397,12 @@ ninja.data = [{
           section: "News",},{id: "news-our-paper-textflow-has-been-accepted-for-main-conference-at-naacl-2025",
           title: '🎉 Our paper, TextFlow, has been accepted for main conference at NAACL 2025!...',
           description: "",
-          section: "News",},{id: "projects-project-1",
+          section: "News",},{id: "projects-textflow",
+          title: 'TextFlow',
+          description: "a framework that converts flowchart images into text to improve explainability and control in flowchart understanding tasks",
+          section: "Projects",handler: () => {
+              window.location.href = "/projects/0_project/";
+            },},{id: "projects-project-1",
           title: 'project 1',
           description: "with background image",
           section: "Projects",handler: () => {
