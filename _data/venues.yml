@@ -22,7 +22,7 @@
 
 "ACML":
   url: https://www.acml-conf.org/
-  color: "#0"
+  color: "#00FFE0"
 
 "Preprint":
-  color: "#DB1227"
+  color: "#00F800"
