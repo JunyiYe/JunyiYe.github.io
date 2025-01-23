@@ -17,7 +17,7 @@ We propose TextFlow {% cite ye2024beyond %}, addressing aforementioned issues wi
     </div>
 </div>
 <div class="caption">
-    **Figure 1**. Our dual-stage TEXTFLOW (bottom) vs. prior work (top)
+    Figure 1. Prior work (top) vs. our dual-stage TextFlow framework (bottom).
 </div>
 
 As illustrated in Figure 1, the approach TextFlow consists of two main stages: (1) Vision Textualizer: A VLM converts the visual components of the flowchart into a high-quality text representation. (2) Textual Reasoner: An LLM or VLM based Texutal Reasoner can use tools
