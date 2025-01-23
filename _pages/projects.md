@@ -5,7 +5,7 @@ permalink: /projects/
 description: A collection of my research projects.
 nav: true
 nav_order: 3
-display_categories: [generative ai, fintech, computer vision, transportation]
+display_categories: [Generative AI, Fintech, Computer Vision, Transportation]
 horizontal: false
 ---
 

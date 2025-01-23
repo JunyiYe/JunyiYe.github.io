@@ -1,8 +1,8 @@
 ---
 layout: page
-title: CreativeMath
+title: DataFrame QA
 description: assess the creativity of LLMs in proposing novel solutions to mathematical problems
-img: assets/img/creative_math.svg
+img: assets/img/dataframe_qa.png
 importance: 2
 category: work
 related_publications: true
@@ -12,7 +12,7 @@ The mathematical capabilities of AI systems are complex and multifaceted. Most e
 
 <div class="row">
     <div class="col-sm mt-3 mt-md-0">
-        {% include figure.liquid loading="eager" path="assets/img/creative_math.svg" title="example image" class="img-fluid rounded z-depth-1" %}
+        {% include figure.liquid loading="eager" path="assets/img/dataframe_qa.png" title="example image" class="img-fluid rounded z-depth-1" %}
     </div>
 </div>
 <div class="caption">
