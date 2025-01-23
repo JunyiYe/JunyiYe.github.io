@@ -407,8 +407,8 @@ ninja.data = [{
           description: "assess the creativity of LLMs in proposing novel solutions to mathematical problems",
           section: "Projects",handler: () => {
               window.location.href = "/projects/2_project/";
-            },},{id: "projects-creativemath",
-          title: 'CreativeMath',
+            },},{id: "projects-dataframe-qa",
+          title: 'DataFrame QA',
           description: "assess the creativity of LLMs in proposing novel solutions to mathematical problems",
           section: "Projects",handler: () => {
               window.location.href = "/projects/3_project/";
