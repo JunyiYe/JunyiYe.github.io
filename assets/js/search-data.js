@@ -399,7 +399,7 @@ ninja.data = [{
           description: "",
           section: "News",},{id: "projects-textflow",
           title: 'TextFlow',
-          description: "A framework that converts flowchart images into text to improve explainability and control in flowchart understanding tasks",
+          description: "Leveraging intermediate text representations for superior flowchart understanding",
           section: "Projects",handler: () => {
               window.location.href = "/projects/1_project/";
             },},{id: "projects-creativemath",
@@ -414,7 +414,7 @@ ninja.data = [{
               window.location.href = "/projects/3_project/";
             },},{id: "projects-faultymath",
           title: 'FaultyMath',
-          description: "This research investigates the capability of LLMs to identify faulty and unsolvable mathematical problems, probing the limits of their logical reasoning",
+          description: "Benchmarking LLMs’ logical integrity on faulty mathematical problems",
           section: "Projects",handler: () => {
               window.location.href = "/projects/4_project/";
             },},{id: "projects-dystage",
@@ -427,19 +427,19 @@ ninja.data = [{
           description: "Adaptive and explainable margin trading via LLMs on portfolio management",
           section: "Projects",handler: () => {
               window.location.href = "/projects/6_project/";
-            },},{id: "projects-project-7",
-          title: 'project 7',
-          description: "with background image",
+            },},{id: "projects-solar-gan",
+          title: 'Solar GAN',
+          description: "High resolution solar image generation using generative adversarial networks",
           section: "Projects",handler: () => {
               window.location.href = "/projects/7_project/";
-            },},{id: "projects-project-8",
-          title: 'project 8',
-          description: "an other project with a background image and giscus comments",
+            },},{id: "projects-coarse2fine-resnet",
+          title: 'Coarse2Fine ResNet',
+          description: "A robust and high-precision generalized deep learning framework for time delay estimation",
           section: "Projects",handler: () => {
               window.location.href = "/projects/8_project/";
-            },},{id: "projects-project-9",
-          title: 'project 9',
-          description: "another project with an image 🎉",
+            },},{id: "projects-safelight",
+          title: 'SafeLight',
+          description: "A reinforcement learning method toward collision-free traffic signal control",
           section: "Projects",handler: () => {
               window.location.href = "/projects/9_project/";
             },},{
