@@ -1,7 +1,7 @@
 ---
 layout: page
 title: Time-Series Mixer
-description: Prediction with time-series mixer for the SP500 index
+description: Prediction with time-series mixer for the S&P500 index
 img: assets/img/ts_mixer.svg
 importance: 3
 category: Fintech
