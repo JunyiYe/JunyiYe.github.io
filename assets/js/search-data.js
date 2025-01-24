@@ -397,7 +397,12 @@ ninja.data = [{
           section: "News",},{id: "news-our-paper-textflow-has-been-accepted-for-main-conference-at-naacl-2025",
           title: '🎉 Our paper, TextFlow, has been accepted for main conference at NAACL 2025!...',
           description: "",
-          section: "News",},{id: "projects-textflow",
+          section: "News",},{id: "projects-time-series-mixer",
+          title: 'Time-Series Mixer',
+          description: "Prediction with time-series mixer for the S&amp;P500 index",
+          section: "Projects",handler: () => {
+              window.location.href = "/projects/10_project/";
+            },},{id: "projects-textflow",
           title: 'TextFlow',
           description: "Leveraging intermediate text representations for superior flowchart understanding",
           section: "Projects",handler: () => {
