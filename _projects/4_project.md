@@ -1,8 +1,8 @@
 ---
 layout: page
 title: FaultyMath
-description: This research investigates the capability of LLMs to identify faulty and unsolvable mathematical problems, probing the limits of their logical reasoning
-img: assets/img/faulty_math_problem_qa.svg
+description: Benchmarking LLMs’ logical integrity on faulty mathematical problems
+img: assets/img/faulty_math_problem.svg
 importance: 4
 category: Generative AI
 related_publications: true
@@ -14,7 +14,7 @@ To investigate, we introduce **FaultyMath** {% cite rahman2024blind %}, a benchm
 
 <div class="row">
     <div class="col-sm mt-3 mt-md-0">
-        {% include figure.liquid loading="eager" path="assets/img/faulty_math_problem_qa.svg" title="example image" class="img-fluid rounded z-depth-1" %}
+        {% include figure.liquid loading="eager" path="assets/img/faulty_math_problem.svg" title="example image" class="img-fluid rounded z-depth-1" %}
     </div>
 </div>
 <div class="caption">
