@@ -399,27 +399,32 @@ ninja.data = [{
           description: "",
           section: "News",},{id: "projects-textflow",
           title: 'TextFlow',
-          description: "a framework that converts flowchart images into text to improve explainability and control in flowchart understanding tasks",
+          description: "A framework that converts flowchart images into text to improve explainability and control in flowchart understanding tasks",
           section: "Projects",handler: () => {
               window.location.href = "/projects/1_project/";
             },},{id: "projects-creativemath",
           title: 'CreativeMath',
-          description: "assess the creativity of LLMs in proposing novel solutions to mathematical problems",
+          description: "Assessing the creativity of LLMs in proposing novel solutions to mathematical problems",
           section: "Projects",handler: () => {
               window.location.href = "/projects/2_project/";
             },},{id: "projects-dataframe-qa",
           title: 'DataFrame QA',
-          description: "assess the creativity of LLMs in proposing novel solutions to mathematical problems",
+          description: "A universal LLM framework on dataFrame question answering without data exposure",
           section: "Projects",handler: () => {
               window.location.href = "/projects/3_project/";
-            },},{id: "projects-project-5",
-          title: 'project 5',
-          description: "a project with a background image",
+            },},{id: "projects-faultymath",
+          title: 'FaultyMath',
+          description: "This research investigates the capability of LLMs to identify faulty and unsolvable mathematical problems, probing the limits of their logical reasoning",
+          section: "Projects",handler: () => {
+              window.location.href = "/projects/4_project/";
+            },},{id: "projects-dystage",
+          title: 'DySTAGE',
+          description: "Dynamic graph representation learning for asset pricing via spatio-temporal attention and graph encodings",
           section: "Projects",handler: () => {
               window.location.href = "/projects/5_project/";
-            },},{id: "projects-project-6",
-          title: 'project 6',
-          description: "a project with no image",
+            },},{id: "projects-margin-trader-llm",
+          title: 'Margin Trader LLM',
+          description: "Adaptive and explainable margin trading via LLMs on portfolio management",
           section: "Projects",handler: () => {
               window.location.href = "/projects/6_project/";
             },},{id: "projects-project-7",
